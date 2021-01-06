@@ -39,3 +39,9 @@ body{
   background-color:#fff;
   vertical-align: middle;
 }
+
+.site-description{
+  margin-bottom: 50ox;
+  color: #888;
+  font-size: 1.6rem;
+}
