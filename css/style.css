@@ -115,3 +115,10 @@ body{
 .work-box{
   display: table-cell;
 }
+
+
+
+.work-image{
+  display: block;
+  width: 100%;
+}
