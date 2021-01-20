@@ -146,6 +146,14 @@ body{
   background-image:url('../images/sky.jpg');
 }
 
+/* 上下を入れ替えるCSS */
+.work-box:nth-child(odd) .work-image{
+  margin:60% 0 0;
+}
+.work-box:nth-child(odd) .work-description,
+.work-box:nth-child(odd)::after{
+  top: 0;
+}
 
 .work-image{
   display: block;
