@@ -345,4 +345,23 @@ height: 150px;
     background-size: cover;
     transform: none;
   }
+
+  .skills-wrapper,
+  .skill-box{
+    display: block;
+  }
+
+  .skill-icon{
+    width: 100px;
+    height: 100px;
+    font-size: 5rem;
+    line-height: 92px;
+  }
+
+  .skill-box{
+    margin: 40px auto;
+  }
+  .skill-text{
+    margin: 0;
+  }
 }
