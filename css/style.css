@@ -313,4 +313,36 @@ height: 150px;
   .button:hover{
     opacity: 1;
   }
+
+  .heading{
+    font-size: 2.5rem;
+  }
+
+  .body{
+    font-size: 1.3rem;
+  }
+
+  .about-text{
+    line-height: 1.8;
+  }
+
+  .works-wrapper,
+  .work-box{
+    display: block;
+  }
+
+  .work-image{
+    display: none;
+  }
+
+  .work-description{
+    position: relative;
+  }
+
+  .work-box::after{
+    top: 0;
+    height: 100%;
+    background-size: cover;
+    transform: none;
+  }
 }
