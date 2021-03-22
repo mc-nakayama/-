@@ -288,7 +288,15 @@ height: 150px;
   font-size: 1.3rem;
 }
 
-/* レスポンシブデザイン */
+
+/* 横向きのタブレット以上でないと背景画像を出現させない */
+@media(max-width: 1024px){
+  body{
+    background-image: none;
+  }
+}
+
+/* レスポンシブデザインスマートフォンと縦向きのタブレット用のスタイル */
 @media(max-width: 768px){
   .site-title-sub::before,
   .site-title-sub::after{
@@ -363,5 +371,13 @@ height: 150px;
   }
   .skill-text{
     margin: 0;
+  }
+
+  .contact-form{
+    width: 80%;
+  }
+
+  .contact{
+    padding-bottom: 80px;
   }
 }
